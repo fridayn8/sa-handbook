@@ -1,0 +1,42 @@
+# =============================================================================
+# .gitignore — keep secrets and local noise OUT of the repository
+# Rule of thumb: if it is generated, machine-specific, or secret → ignore it.
+# =============================================================================
+
+# ---- Secrets & credentials (NEVER commit these) -----------------------------
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+age-key.txt
+keys.txt
+.env
+.env.*
+!.env.example
+*.secret
+
+# ---- Python / Node (tooling) ------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# ---- Docs site --------------------------------------------------------------
+site/
+
+# ---- OS / editor noise ------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

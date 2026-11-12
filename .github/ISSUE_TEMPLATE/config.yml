@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Git reference
+    url: https://github.com/fridayn8/sa-handbook/tree/main/git
+    about: Stuck with Git? Check the handbook and troubleshooting recipes first.

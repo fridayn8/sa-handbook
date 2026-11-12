@@ -1,0 +1,8 @@
+# CODEOWNERS — who must review changes to which paths.
+# GitHub automatically requests a review from the matching owners when a PR is opened.
+# With the ruleset option "Require review from Code Owners", their approval is mandatory.
+#
+# Syntax is like .gitignore. The LAST matching pattern wins.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+*       @fridayn8

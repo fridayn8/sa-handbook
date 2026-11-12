@@ -1,0 +1,45 @@
+name: Bug / problem
+description: Something is wrong, outdated, broken or inconsistent
+title: "fix(<scope>): <short description>"
+labels: ["fix"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Describe the problem and where you saw it (file and section). Do NOT paste secrets, real IPs or real hostnames.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: For a command that does not behave as documented.
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Sanitised output. Rendered as code.
+      render: shell
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Git handbook
+        - Glossary and term chains
+        - Templates
+        - Top 10 and tools stack
+        - Practice exercises
+        - Repository tooling
