@@ -1,0 +1,31 @@
+name: Task
+description: A piece of work
+title: "<type>(<scope>): <short description>"
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      value: |
+        - [ ]
+        - [ ]
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of Done
+      value: |
+        - [ ] Changes merged via PR
+        - [ ] Documentation updated
+        - [ ] Checks pass
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / references

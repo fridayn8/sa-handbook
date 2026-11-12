@@ -1,0 +1,32 @@
+name: Bug / problem
+description: Something is broken, wrong or inconsistent
+title: "fix(<scope>): <short description>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Do NOT paste secrets, real IPs or real hostnames.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Sanitised output. Rendered as code.
+      render: shell
