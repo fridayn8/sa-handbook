@@ -57,7 +57,7 @@ git switch --discard-changes main     # ⚠️ switch and throw away local chang
 
 feat/proxmox-vm-module
 fix/opnsense-dns-rule
-docs/adr-0004-remote-access
+docs/remote-access-decision
 chore/update-pre-commit
 ```
 
