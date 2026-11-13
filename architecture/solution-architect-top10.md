@@ -155,6 +155,9 @@ networking and observability every time. Architects scale their impact this way.
 **A blueprint usually contains:** a README (problem, when to use, when *not* to use),
 diagram, IaC modules, default security controls, and known trade-offs.
 
+**Deep dive:** [Reference architectures & blueprints](reference-architectures.md) (written in
+parts; more in the [BACKLOG](../BACKLOG.md)).
+
 **Practise it:** not covered yet — see [BACKLOG](../BACKLOG.md).
 
 ---
